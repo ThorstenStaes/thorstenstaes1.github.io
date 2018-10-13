@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+Body {
+	background-color:#755252;
+	margin: 0; 
+	padding: 0; 
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+p {color: black;}
+a:link {color: black}
+.nav {
+	font-size:110%;
+	color:black; 
+	background-color:#918888; width: 80px;
+	list-style: none;
+	padding: 20px 0 20px 0;
+	text-align: center;
+	}
+.nav > li  >a {
+	text-decoration: none;
+	padding-right: 20px 0 20px 0;
+	text-decoration-color: black;
+	
+}
+.nav > li > a:hover { color: white;
+} 
+.nav2 {
+	font-size:110%;
+	color:black; 
+	list-style: none;
+	text-align:left;
+	}
+.nav2 >li >a {text-decoration: none;}
+.nav2 >li >a:hover {color: white;}
+
